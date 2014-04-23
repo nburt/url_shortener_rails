@@ -45,3 +45,5 @@ end
 group :test do
   gem 'capybara', '~> 2.2.1'
 end
+
+gem 'rails_12factor', '~> 0.0.2'
