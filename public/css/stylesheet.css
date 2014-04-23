@@ -1,0 +1,44 @@
+#table_container,
+#form_container {
+  width: 90%;
+  margin: auto;
+}
+
+table,
+form {
+  margin: 22.5% auto 0;
+}
+
+table td {
+  padding: .5em;
+  font-size: 1.5em;
+}
+
+table a:link, table a:visited {
+  color: #155ED4;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  width: 22.5em;
+  height: 2em;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 1.25em;
+  display: block;
+  margin: auto;
+}
+
+form button {
+  width: 5em;
+  height: 2em;
+  border: 2px solid black;
+  background-color: #155ED4;
+  color: #fff;
+  font-size: 1.25em;
+  display: block;
+  margin: 1em auto 0;
+}

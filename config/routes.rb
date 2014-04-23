@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+
+  get "/", to: "shortener#index"
+
+  post "/", to: "shortener#create"
+
+  get "/:id", to: "shortener#show"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
